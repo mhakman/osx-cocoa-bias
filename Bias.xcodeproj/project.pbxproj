@@ -13,18 +13,16 @@
 		6AA3F4401A83BDD60015627A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA3F43F1A83BDD60015627A /* AppDelegate.swift */; };
 		6AA3F4421A83BDD60015627A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA3F4411A83BDD60015627A /* Images.xcassets */; };
 		6AA3F4451A83BDD60015627A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA3F4431A83BDD60015627A /* MainMenu.xib */; };
-		6AA3F4511A83BDD60015627A /* BiasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA3F4501A83BDD60015627A /* BiasTests.swift */; };
+		6AA496241A965DD300F7B2B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA496231A965DD300F7B2B0 /* AppDelegate.swift */; };
+		6AA496261A965DD300F7B2B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA496251A965DD300F7B2B0 /* Images.xcassets */; };
+		6AA496291A965DD300F7B2B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA496271A965DD300F7B2B0 /* MainMenu.xib */; };
+		6AA4963D1A96640600F7B2B0 /* GenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA4963C1A96640600F7B2B0 /* GenModel.swift */; };
+		6AA4963F1A96695300F7B2B0 /* GenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA4963E1A96695300F7B2B0 /* GenController.swift */; };
+		6AA496411A979E8500F7B2B0 /* GenTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA496401A979E8500F7B2B0 /* GenTextView.swift */; };
+		6AA496431A98DB0800F7B2B0 /* GenTransistor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA496421A98DB0800F7B2B0 /* GenTransistor.swift */; };
+		6AA496451A98DF2400F7B2B0 /* Transistor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA496441A98DF2400F7B2B0 /* Transistor.swift */; };
+		6AA496491A98EC6500F7B2B0 /* TransistorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA496481A98EC6500F7B2B0 /* TransistorData.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6AA3F44B1A83BDD60015627A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6AA3F4321A83BDD60015627A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6AA3F4391A83BDD60015627A;
-			remoteInfo = Bias;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6A69CE471A852582009D1F92 /* Circuit-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circuit-3.png"; sourceTree = "<group>"; };
@@ -36,9 +34,17 @@
 		6AA3F43F1A83BDD60015627A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AA3F4411A83BDD60015627A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6AA3F4441A83BDD60015627A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		6AA3F44A1A83BDD60015627A /* BiasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AA3F44F1A83BDD60015627A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AA3F4501A83BDD60015627A /* BiasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiasTests.swift; sourceTree = "<group>"; };
+		6AA4961F1A965DD300F7B2B0 /* GenTransData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenTransData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA496221A965DD300F7B2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../GenTransData/Info.plist; sourceTree = "<group>"; };
+		6AA496231A965DD300F7B2B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../GenTransData/AppDelegate.swift; sourceTree = "<group>"; };
+		6AA496251A965DD300F7B2B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../GenTransData/Images.xcassets; sourceTree = "<group>"; };
+		6AA496281A965DD300F7B2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6AA4963C1A96640600F7B2B0 /* GenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenModel.swift; path = ../GenTransData/GenModel.swift; sourceTree = "<group>"; };
+		6AA4963E1A96695300F7B2B0 /* GenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenController.swift; path = ../GenTransData/GenController.swift; sourceTree = "<group>"; };
+		6AA496401A979E8500F7B2B0 /* GenTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenTextView.swift; path = ../GenTransData/GenTextView.swift; sourceTree = "<group>"; };
+		6AA496421A98DB0800F7B2B0 /* GenTransistor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenTransistor.swift; path = ../GenTransData/GenTransistor.swift; sourceTree = "<group>"; };
+		6AA496441A98DF2400F7B2B0 /* Transistor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transistor.swift; sourceTree = "<group>"; };
+		6AA496481A98EC6500F7B2B0 /* TransistorData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransistorData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +55,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AA3F4471A83BDD60015627A /* Frameworks */ = {
+		6AA4961C1A965DD300F7B2B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				6AA3F43C1A83BDD60015627A /* Bias */,
-				6AA3F44D1A83BDD60015627A /* BiasTests */,
+				6AA496201A965DD300F7B2B0 /* GenTransData */,
 				6AA3F43B1A83BDD60015627A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				6AA3F43A1A83BDD60015627A /* Bias.app */,
-				6AA3F44A1A83BDD60015627A /* BiasTests.xctest */,
+				6AA4961F1A965DD300F7B2B0 /* GenTransData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +91,8 @@
 				6A69CE491A8529B5009D1F92 /* BiasModel.swift */,
 				6AA3F4431A83BDD60015627A /* MainMenu.xib */,
 				6A69CE4B1A853C63009D1F92 /* ValueFormatter.swift */,
+				6AA496441A98DF2400F7B2B0 /* Transistor.swift */,
+				6AA496481A98EC6500F7B2B0 /* TransistorData.swift */,
 				6AA3F4411A83BDD60015627A /* Images.xcassets */,
 				6A69CE471A852582009D1F92 /* Circuit-3.png */,
 				6AA3F43D1A83BDD60015627A /* Supporting Files */,
@@ -100,19 +108,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6AA3F44D1A83BDD60015627A /* BiasTests */ = {
+		6AA496201A965DD300F7B2B0 /* GenTransData */ = {
 			isa = PBXGroup;
 			children = (
-				6AA3F4501A83BDD60015627A /* BiasTests.swift */,
-				6AA3F44E1A83BDD60015627A /* Supporting Files */,
+				6AA496231A965DD300F7B2B0 /* AppDelegate.swift */,
+				6AA496271A965DD300F7B2B0 /* MainMenu.xib */,
+				6AA4963C1A96640600F7B2B0 /* GenModel.swift */,
+				6AA4963E1A96695300F7B2B0 /* GenController.swift */,
+				6AA496401A979E8500F7B2B0 /* GenTextView.swift */,
+				6AA496421A98DB0800F7B2B0 /* GenTransistor.swift */,
+				6AA496251A965DD300F7B2B0 /* Images.xcassets */,
+				6AA496211A965DD300F7B2B0 /* Supporting Files */,
 			);
-			path = BiasTests;
+			path = GenTransData;
 			sourceTree = "<group>";
 		};
-		6AA3F44E1A83BDD60015627A /* Supporting Files */ = {
+		6AA496211A965DD300F7B2B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6AA3F44F1A83BDD60015627A /* Info.plist */,
+				6AA496221A965DD300F7B2B0 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,23 +151,22 @@
 			productReference = 6AA3F43A1A83BDD60015627A /* Bias.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6AA3F4491A83BDD60015627A /* BiasTests */ = {
+		6AA4961E1A965DD300F7B2B0 /* GenTransData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AA3F4571A83BDD60015627A /* Build configuration list for PBXNativeTarget "BiasTests" */;
+			buildConfigurationList = 6AA4963A1A965DD300F7B2B0 /* Build configuration list for PBXNativeTarget "GenTransData" */;
 			buildPhases = (
-				6AA3F4461A83BDD60015627A /* Sources */,
-				6AA3F4471A83BDD60015627A /* Frameworks */,
-				6AA3F4481A83BDD60015627A /* Resources */,
+				6AA4961B1A965DD300F7B2B0 /* Sources */,
+				6AA4961C1A965DD300F7B2B0 /* Frameworks */,
+				6AA4961D1A965DD300F7B2B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6AA3F44C1A83BDD60015627A /* PBXTargetDependency */,
 			);
-			name = BiasTests;
-			productName = BiasTests;
-			productReference = 6AA3F44A1A83BDD60015627A /* BiasTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = GenTransData;
+			productName = GenTransType;
+			productReference = 6AA4961F1A965DD300F7B2B0 /* GenTransData.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -167,9 +180,8 @@
 					6AA3F4391A83BDD60015627A = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					6AA3F4491A83BDD60015627A = {
+					6AA4961E1A965DD300F7B2B0 = {
 						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 6AA3F4391A83BDD60015627A;
 					};
 				};
 			};
@@ -187,7 +199,7 @@
 			projectRoot = "";
 			targets = (
 				6AA3F4391A83BDD60015627A /* Bias */,
-				6AA3F4491A83BDD60015627A /* BiasTests */,
+				6AA4961E1A965DD300F7B2B0 /* GenTransData */,
 			);
 		};
 /* End PBXProject section */
@@ -203,10 +215,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AA3F4481A83BDD60015627A /* Resources */ = {
+		6AA4961D1A965DD300F7B2B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA496261A965DD300F7B2B0 /* Images.xcassets in Resources */,
+				6AA496291A965DD300F7B2B0 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,29 +231,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA496491A98EC6500F7B2B0 /* TransistorData.swift in Sources */,
 				6A69CE4A1A8529B5009D1F92 /* BiasModel.swift in Sources */,
 				6A69CE4C1A853C63009D1F92 /* ValueFormatter.swift in Sources */,
+				6AA496451A98DF2400F7B2B0 /* Transistor.swift in Sources */,
 				6AA3F4401A83BDD60015627A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AA3F4461A83BDD60015627A /* Sources */ = {
+		6AA4961B1A965DD300F7B2B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AA3F4511A83BDD60015627A /* BiasTests.swift in Sources */,
+				6AA496431A98DB0800F7B2B0 /* GenTransistor.swift in Sources */,
+				6AA4963F1A96695300F7B2B0 /* GenController.swift in Sources */,
+				6AA4963D1A96640600F7B2B0 /* GenModel.swift in Sources */,
+				6AA496411A979E8500F7B2B0 /* GenTextView.swift in Sources */,
+				6AA496241A965DD300F7B2B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6AA3F44C1A83BDD60015627A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6AA3F4391A83BDD60015627A /* Bias */;
-			targetProxy = 6AA3F44B1A83BDD60015627A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6AA3F4431A83BDD60015627A /* MainMenu.xib */ = {
@@ -248,6 +260,15 @@
 				6AA3F4441A83BDD60015627A /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6AA496271A965DD300F7B2B0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AA496281A965DD300F7B2B0 /* Base */,
+			);
+			name = MainMenu.xib;
+			path = ../GenTransData;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -354,39 +375,29 @@
 			};
 			name = Release;
 		};
-		6AA3F4581A83BDD60015627A /* Debug */ = {
+		6AA496361A965DD300F7B2B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = BiasTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				INFOPLIST_FILE = "$(SRCROOT)/GenTransData/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bias.app/Contents/MacOS/Bias";
 			};
 			name = Debug;
 		};
-		6AA3F4591A83BDD60015627A /* Release */ = {
+		6AA496371A965DD300F7B2B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BiasTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				INFOPLIST_FILE = "$(SRCROOT)/GenTransData/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bias.app/Contents/MacOS/Bias";
 			};
 			name = Release;
 		};
@@ -411,11 +422,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AA3F4571A83BDD60015627A /* Build configuration list for PBXNativeTarget "BiasTests" */ = {
+		6AA4963A1A965DD300F7B2B0 /* Build configuration list for PBXNativeTarget "GenTransData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6AA3F4581A83BDD60015627A /* Debug */,
-				6AA3F4591A83BDD60015627A /* Release */,
+				6AA496361A965DD300F7B2B0 /* Debug */,
+				6AA496371A965DD300F7B2B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

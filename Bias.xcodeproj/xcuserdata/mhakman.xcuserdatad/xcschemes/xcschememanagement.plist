@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>GenTransData.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>6AA3F4491A83BDD60015627A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6AA4961E1A965DD300F7B2B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6AA4962D1A965DD300F7B2B0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

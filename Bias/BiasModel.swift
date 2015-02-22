@@ -20,6 +20,25 @@ class BiasModel : NSObject {
     //
     // Required input
     //
+    dynamic var transTypes : [NSString] = Transistor.typeList
+    
+    dynamic var transType : String = "      " {
+        
+        didSet {
+            
+            let transistor : Transistor! = Transistor.getTransistorType (transType)
+            
+            if transistor == nil {
+                
+                return
+            }
+            
+            self.isat = transistor.isat
+            
+            self.beta = transistor.beta
+        }
+    }
+        
     dynamic var vcc : Double = 0 {
         
         didSet {
